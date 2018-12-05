@@ -2,6 +2,9 @@
 
 ### A basic Contact form App With Symfony 4
 
+This contact form can send emails using Gmail, SMTP and Cloud.  
+I will recommend give a look on the Symfony website in the [documentation](https://symfony.com/doc/current/email.html) that describes how to send an email using Gmail, SMTP and Cloud services
+
 __Symfony version__: 4  
 __Symfony skeleton__: website-skeleton  
 __Template engine__: Twig  
@@ -9,7 +12,7 @@ __Frontend framework__: Bootstrap 4 (Bootstrap CDN)
 
 ![Image](https://monosnap.com/image/n9plfLkFgJH9eJVUI742caY3dKO5Rg.png "Image")
 
-## How to start/test
+## Installation
 
 ``` bash
 # Install dependencies
