@@ -16,7 +16,7 @@ __Frontend framework__: Bootstrap 4 (Bootstrap CDN)
 composer install
 
 # Edit the .env file (or .env.local) to update MAILER_URL option, ex:
-MAILER_URL=smtp://<address>:<port_smpt>?encryption=tls&auth_mode=login&username=<your_username>&password=<your_password>
+MAILER_URL=smtp://<address>:<port>?encryption=tls&auth_mode=login&username=<your_username>&password=<your_password>
 
 # Now let's fire up the web server and take a look on this contact form:
 php bin/console server:start
